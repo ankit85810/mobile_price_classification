@@ -41,7 +41,17 @@ I worked with both **scikit-learn implementations** and my own **hard-coded mode
 - Comparison was made between **self-implemented models** and **scikit-learn models**.  
 - The evaluation metrics confirmed that the manually implemented algorithms worked as expected.  
 
-(You can include a small result table here once you finalize accuracy scores)
+## 📊 Model Comparison (Breast Cancer Dataset)
+
+| Model                          | Accuracy | Precision (Class 0 / 1) | Recall (Class 0 / 1) | F1-Score (Class 0 / 1) |
+|--------------------------------|----------|--------------------------|-----------------------|-------------------------|
+| **Sklearn Logistic Regression** | 98.25%   | 0.98 / 0.99             | 0.98 / 0.99          | 0.98 / 0.99            |
+| **Custom Logistic Regression**  | 96.49%   | 0.93 / 0.99             | 0.98 / 0.96          | 0.95 / 0.97            |
+| **Sklearn Decision Tree**       | 92.98%   | 0.89 / 0.96             | 0.93 / 0.93          | 0.91 / 0.94            |
+| **Custom Decision Tree**        | 92.11%   | 0.87 / 0.96             | 0.93 / 0.92          | 0.90 / 0.94            |
+| **Sklearn Random Forest**       | 95.61%   | 0.95 / 0.96             | 0.93 / 0.97          | 0.94 / 0.97            |
+| **Custom Random Forest**        | 95.61%   | 0.91 / 0.99             | 0.98 / 0.94          | 0.94 / 0.96            |
+
 
 ---
 
